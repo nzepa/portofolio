@@ -4,7 +4,7 @@
   "description": "Mon portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass scss/main.scss dist/css/style.css"
+    "sass": "node-sass --watch scss/main.scss dist/css/style.css"
   },
   "author": "",
   "license": "ISC",
