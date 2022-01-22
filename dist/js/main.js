@@ -7,7 +7,7 @@ menuNav = document.querySelector(".menu-nav");
 
 menuBranding = document.querySelector(".menu-branding");
 
-navItems = document.querySelectorAll(".nav-items");
+navItems = document.querySelectorAll(".nav-item");
 
 // Set initial State of menu
 let showMenu = false;
