@@ -191,6 +191,25 @@ main {
       border-color: #e61212;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #e61212;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
